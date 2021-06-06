@@ -4,6 +4,7 @@ exports.up = function(knex) {
         table.string('nome_responsavel').notNullable();
         table.string('descricao_tarefa').notNullable();
         table.string('email').notNullable();
+        table.string('status').notNullable();
       });
 };
 
